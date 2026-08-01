@@ -198,7 +198,13 @@ Official profiles: [ORCID](https://orcid.org/0000-0003-1692-0453) · [Google Sch
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). After Zenodo mints the first DOI, run `python scripts/apply_zenodo_doi.py 10.5281/zenodo.YOUR_ID` to update the citation metadata, README and website consistently.
+To cite the archived version `v1.0.0`:
+
+> Kowsari, Faramarz. (2026). *Türkiye Energy Intelligence Platform* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21749629
+
+Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff).
+
+For references to the software project across all current and future versions, use the [Concept DOI](https://doi.org/10.5281/zenodo.21749628).
 
 ## License
 
