@@ -6,6 +6,7 @@
 <p align="center"><strong>EnerjiNabız AI</strong> · Near-real-time electricity analytics, forecasting, anomaly detection and BI-ready exports for Türkiye.</p>
 <p align="center">
   <a href="https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://doi.org/10.5281/zenodo.21749628"><img alt="Zenodo DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.21749628.svg"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-168d73.svg"></a>
   <img alt="Python 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-3670A0.svg">
   <img alt="Data: Demo ready" src="https://img.shields.io/badge/Data-Demo%20ready-f3b43f.svg">
@@ -205,5 +206,8 @@ MIT License for source code. Data obtained from external providers remains subje
 
 
 <!-- ZENODO_DOI_START -->
-**Zenodo DOI:** _Pending first archived GitHub release._
+### Zenodo DOI
+
+- **All versions / Concept DOI:** [10.5281/zenodo.21749628](https://doi.org/10.5281/zenodo.21749628)
+- **Version v1.0.0 DOI:** [10.5281/zenodo.21749629](https://doi.org/10.5281/zenodo.21749629)
 <!-- ZENODO_DOI_END -->
