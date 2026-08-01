@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Türkiye Energy Intelligence Platform"
+message: "If you use this software, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: Kowsari
+    given-names: Faramarz
+    orcid: "https://orcid.org/0000-0003-1692-0453"
+repository-code: "https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform"
+url: "https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/"
+version: 1.0.0
+date-released: 2026-08-01
+license: MIT
+keywords:
+  - energy analytics
+  - Türkiye
+  - electricity market
+  - EPİAŞ
+  - TEİAŞ
+  - forecasting
+  - data quality
+  - anomaly detection
+  - Power BI
+  - Tableau
+abstract: >-
+  An open-source platform for Turkish electricity-market data ingestion,
+  quality control, time-series analytics, forecasting, anomaly detection,
+  visualization and BI-ready data exports.

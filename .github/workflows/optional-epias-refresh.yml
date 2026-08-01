@@ -1,0 +1,31 @@
+name: Optional EPİAŞ refresh
+
+on:
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      ENERGY_DATA_PROVIDER: epias
+      EPIAS_USERNAME: ${{ secrets.EPIAS_USERNAME }}
+      EPIAS_PASSWORD: ${{ secrets.EPIAS_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[app]"
+      - name: Validate secrets
+        run: |
+          test -n "$EPIAS_USERNAME" || (echo "Missing EPIAS_USERNAME secret" && exit 1)
+          test -n "$EPIAS_PASSWORD" || (echo "Missing EPIAS_PASSWORD secret" && exit 1)
+      - run: enerjinabiz build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: epias-analytics-output
+          path: |
+            data/processed
+            data/exports
+            reports
+          retention-days: 7

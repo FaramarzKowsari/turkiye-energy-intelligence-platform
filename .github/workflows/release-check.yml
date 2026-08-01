@@ -1,0 +1,21 @@
+name: Release validation
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  validate-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev,app]"
+      - run: python scripts/generate_demo.py
+      - run: python scripts/build_exports.py
+      - run: pytest
+      - run: python scripts/release_audit.py
+      - name: Confirm citation metadata
+        run: test -f CITATION.cff && test -f .zenodo.json

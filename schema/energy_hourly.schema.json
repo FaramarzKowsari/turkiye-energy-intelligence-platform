@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/schema/energy_hourly.schema.json",
+  "title": "EnerjiNabız normalized hourly energy record",
+  "type": "object",
+  "required": [
+    "timestamp",
+    "consumption_mwh",
+    "generation_mwh",
+    "market_price_try_mwh",
+    "source",
+    "is_synthetic"
+  ],
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "consumption_mwh": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "generation_mwh": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "market_price_try_mwh": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "renewable_share_pct": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 100
+    },
+    "source": {
+      "type": "string"
+    },
+    "is_synthetic": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true
+}

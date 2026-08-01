@@ -1,0 +1,35 @@
+{
+  "title": "Türkiye Energy Intelligence Platform",
+  "description": "An open-source platform for Turkish electricity-market data ingestion, quality control, time-series analytics, forecasting, anomaly detection, visualization and BI-ready data exports.",
+  "creators": [
+    {
+      "name": "Kowsari, Faramarz",
+      "orcid": "0000-0003-1692-0453",
+      "affiliation": "Independent Researcher, Istanbul, Türkiye"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "keywords": [
+    "energy analytics",
+    "Türkiye",
+    "electricity market",
+    "EPİAŞ",
+    "TEİAŞ",
+    "time-series forecasting",
+    "data engineering",
+    "data quality",
+    "anomaly detection",
+    "renewable energy",
+    "Power BI",
+    "Tableau"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "communities": []
+}

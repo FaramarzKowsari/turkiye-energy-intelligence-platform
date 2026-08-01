@@ -1,0 +1,13 @@
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      ENERGY_DATA_PROVIDER: ${ENERGY_DATA_PROVIDER:-demo}
+      LOCAL_DATA_PATH: ${LOCAL_DATA_PATH:-data/samples/energy_hourly_demo.csv}
+      EPIAS_USERNAME: ${EPIAS_USERNAME:-}
+      EPIAS_PASSWORD: ${EPIAS_PASSWORD:-}
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports

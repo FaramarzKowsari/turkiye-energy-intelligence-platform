@@ -1,0 +1,87 @@
+{
+  "project": "Türkiye Energy Intelligence Platform",
+  "version": "1.0.0",
+  "validated_at_utc": "2026-08-01T17:39:07.895664+00:00",
+  "status": "PASS_WITH_DOCUMENTED_EXTERNAL_LIMITS",
+  "inventory": {
+    "repository_files_before_git_metadata": 142,
+    "python_files": 26,
+    "demo_hourly_rows": 2880,
+    "demo_hourly_coverage_pct": 100.0
+  },
+  "checks": {
+    "pytest": {
+      "status": "PASS",
+      "tests": 8
+    },
+    "python_compileall": "PASS",
+    "release_audit": "PASS",
+    "github_actions_yaml_parse": "PASS",
+    "metadata_json_parse": "PASS",
+    "javascript_syntax": "PASS",
+    "fastapi_smoke_tests": "PASS",
+    "cli_help": "PASS",
+    "bi_csv_exports": "PASS",
+    "bi_excel_export": "PASS",
+    "openapi_generation": "PASS",
+    "bilingual_readme": "PASS",
+    "bilingual_pages_language_switch": "PASS",
+    "seo_files": "PASS",
+    "zenodo_metadata": "PASS"
+  },
+  "forecast_demo_metrics": {
+    "model": "RandomForestRegressor",
+    "test_rows": 48,
+    "mae": 715.311,
+    "rmse": 880.415,
+    "naive_mae": 793.609
+  },
+  "data_quality": {
+    "rows": 2880,
+    "start": "2026-04-01T00:00:00",
+    "end": "2026-07-29T23:00:00",
+    "expected_hourly_rows": 2880,
+    "coverage_pct": 100.0,
+    "missing_timestamp_count": 0,
+    "duplicate_timestamp_count": 0,
+    "missing_by_column": {
+      "timestamp": 0,
+      "consumption_mwh": 0,
+      "generation_mwh": 0,
+      "market_price_try_mwh": 0,
+      "natural_gas_mwh": 0,
+      "lignite_mwh": 0,
+      "hard_coal_mwh": 0,
+      "imported_coal_mwh": 0,
+      "dam_hydro_mwh": 0,
+      "run_of_river_mwh": 0,
+      "wind_mwh": 0,
+      "solar_mwh": 0,
+      "geothermal_mwh": 0,
+      "biomass_mwh": 0,
+      "source": 0,
+      "is_synthetic": 0,
+      "date": 0,
+      "year": 0,
+      "month": 0,
+      "day": 0,
+      "hour": 0,
+      "weekday": 0,
+      "is_weekend": 0,
+      "net_balance_mwh": 0,
+      "renewable_generation_mwh": 0,
+      "renewable_share_pct": 0,
+      "anomaly_score": 0,
+      "is_anomaly": 0
+    },
+    "synthetic_rows": 2880
+  },
+  "external_limits": [
+    "Authenticated EPİAŞ end-to-end calls were not executed because no user credentials were supplied or stored. The adapter was validated with documented schemas and mocked responses.",
+    "The Streamlit UI dependency is declared but was not installed in the build container; core analytics, API and static Pages assets were validated.",
+    "A browser screenshot was blocked by the execution environment; HTML, JavaScript and metadata were structurally validated.",
+    "The author portrait is loaded from the official GitHub avatar URL with a local SVG fallback because the binary portrait was not available in the active sandbox.",
+    "The unique Google Search Console verification HTML file can only be installed after Google issues it to the repository owner.",
+    "The final Zenodo DOI can only be inserted after Zenodo archives the published GitHub release."
+  ]
+}

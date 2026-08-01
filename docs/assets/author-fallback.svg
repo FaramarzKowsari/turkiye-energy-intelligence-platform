@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">Faramarz Kowsari</title>
+  <desc id="desc">Fallback author identity image with the initials FK.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2336"/><stop offset="1" stop-color="#168d73"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="720" rx="80" fill="url(#g)"/>
+  <circle cx="360" cy="285" r="145" fill="#eef8f5" opacity=".14"/>
+  <text x="360" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="175" font-weight="700" fill="#f4fbff">FK</text>
+  <text x="360" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#f4fbff">Faramarz Kowsari</text>
+  <text x="360" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#c2e5dc">Author · Software Engineer · AI Researcher</text>
+</svg>

@@ -1,0 +1,22 @@
+name: Feature request
+description: Propose a new provider, analytical feature or visualization.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What decision or workflow should this feature improve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data source and licensing notes

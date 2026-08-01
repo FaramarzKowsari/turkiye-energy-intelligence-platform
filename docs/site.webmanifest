@@ -1,0 +1,9 @@
+{
+  "name":"Türkiye Energy Intelligence Platform",
+  "short_name":"EnerjiNabız AI",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#08131f",
+  "theme_color":"#08131f",
+  "icons":[{"src":"assets/favicon.svg","sizes":"any","type":"image/svg+xml"}]
+}

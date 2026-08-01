@@ -1,0 +1,10 @@
+# Türkiye Energy Intelligence Platform
+
+Official open-source project page for EnerjiNabız AI by Faramarz Kowsari.
+
+Core topics: Turkish electricity market, energy data engineering, data quality, time-series forecasting, anomaly detection, renewable generation mix, EPİAŞ optional REST connector, TEİAŞ public reports, Power BI and Tableau exports.
+
+Repository: https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform
+Author ORCID: https://orcid.org/0000-0003-1692-0453
+License: MIT
+Important: bundled demo data is synthetic and clearly labelled.

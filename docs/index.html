@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Türkiye Energy Intelligence Platform | EnerjiNabız AI</title>
+  <meta name="description" content="Open-source Turkish electricity analytics, forecasting, anomaly detection and BI-ready data exports by Faramarz Kowsari.">
+  <meta name="author" content="Faramarz Kowsari">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <meta name="theme-color" content="#08131f">
+  <!-- Paste Google Search Console verification meta tag here when issued. -->
+  <link rel="canonical" href="https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/">
+  <link rel="sitemap" type="application/xml" href="https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/sitemap.xml">
+  <link rel="alternate" hreflang="en" href="https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/?lang=en">
+  <link rel="alternate" hreflang="tr" href="https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/?lang=tr">
+  <link rel="alternate" hreflang="x-default" href="https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Türkiye Energy Intelligence Platform">
+  <meta property="og:description" content="Energy data engineering, forecasting, anomaly detection and BI-ready exports for Türkiye.">
+  <meta property="og:url" content="https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/105053743?v=4">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"SoftwareSourceCode",
+        "name":"Türkiye Energy Intelligence Platform",
+        "alternateName":"EnerjiNabız AI",
+        "codeRepository":"https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform",
+        "programmingLanguage":"Python",
+        "license":"https://opensource.org/licenses/MIT",
+        "author":{"@id":"#author"},
+        "description":"Open-source Turkish electricity analytics, forecasting, anomaly detection and BI-ready exports."
+      },
+      {
+        "@type":"Person",
+        "@id":"#author",
+        "name":"Faramarz Kowsari",
+        "image":"https://avatars.githubusercontent.com/u/105053743?v=4",
+        "jobTitle":["Author","Software Engineer","AI Researcher"],
+        "homeLocation":{"@type":"Place","name":"Istanbul, Türkiye"},
+        "url":"https://FaramarzKowsari.github.io",
+        "sameAs":[
+          "https://orcid.org/0000-0003-1692-0453",
+          "https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en",
+          "https://github.com/FaramarzKowsari",
+          "https://www.linkedin.com/in/faramarzkowsari",
+          "https://play.google.com/store/search?q=Faramarz_Kowsari&c=books"
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top"><span class="brandmark">EN</span><span>EnerjiNabız AI</span></a>
+    <nav>
+      <a href="#dashboard" data-en="Dashboard" data-tr="Gösterge Paneli">Dashboard</a>
+      <a href="#architecture" data-en="Architecture" data-tr="Mimari">Architecture</a>
+      <a href="#author" data-en="Author" data-tr="Yazar">Author</a>
+      <div class="lang-switch" role="group" aria-label="Language switch">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="tr">TR</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div>
+        <span class="eyebrow" data-en="OPEN-SOURCE ENERGY INTELLIGENCE" data-tr="AÇIK KAYNAK ENERJİ ZEKÂSI">OPEN-SOURCE ENERGY INTELLIGENCE</span>
+        <h1 data-en="Türkiye Energy Intelligence Platform" data-tr="Türkiye Enerji Zekâsı Platformu">Türkiye Energy Intelligence Platform</h1>
+        <p class="lead" data-en="A provider-independent platform for electricity data quality, forecasting, anomaly detection, renewable-mix analysis and BI-ready exports." data-tr="Elektrik verisi kalitesi, tahmin, anomali tespiti, yenilenebilir üretim karması analizi ve BI uyumlu çıktılar için sağlayıcıdan bağımsız bir platform.">A provider-independent platform for electricity data quality, forecasting, anomaly detection, renewable-mix analysis and BI-ready exports.</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform" data-en="View source code" data-tr="Kaynak kodu görüntüle">View source code</a>
+          <a class="button" href="#dashboard" data-en="Explore demo" data-tr="Demoyu incele">Explore demo</a>
+        </div>
+        <p class="note" data-en="The visible dashboard uses clearly labelled synthetic demo data. EPİAŞ connectivity is optional and uses each user's own credentials." data-tr="Görünen panel açıkça etiketlenmiş sentetik demo verisi kullanır. EPİAŞ bağlantısı isteğe bağlıdır ve her kullanıcının kendi hesabıyla çalışır.">The visible dashboard uses clearly labelled synthetic demo data. EPİAŞ connectivity is optional and uses each user's own credentials.</p>
+      </div>
+      <aside class="hero-card">
+        <div class="pulse"></div>
+        <span data-en="Independent execution" data-tr="Bağımsız çalışma">Independent execution</span>
+        <strong data-en="No account required for demo" data-tr="Demo için üyelik gerekmez">No account required for demo</strong>
+        <ul>
+          <li data-en="Demo and local-file modes" data-tr="Demo ve yerel dosya modları">Demo and local-file modes</li>
+          <li data-en="Optional EPİAŞ REST connector" data-tr="İsteğe bağlı EPİAŞ REST bağlantısı">Optional EPİAŞ REST connector</li>
+          <li data-en="Power BI and Tableau exports" data-tr="Power BI ve Tableau çıktıları">Power BI and Tableau exports</li>
+          <li data-en="Forecasting and anomaly detection" data-tr="Tahmin ve anomali tespiti">Forecasting and anomaly detection</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section id="dashboard" class="section wrap">
+      <div class="section-head">
+        <div><span class="eyebrow" data-en="INTERACTIVE DEMO" data-tr="ETKİLEŞİMLİ DEMO">INTERACTIVE DEMO</span><h2 data-en="Fourteen-day energy pulse" data-tr="On dört günlük enerji görünümü">Fourteen-day energy pulse</h2></div>
+        <span class="badge" data-en="Synthetic demonstration dataset" data-tr="Sentetik gösterim veri seti">Synthetic demonstration dataset</span>
+      </div>
+      <div id="kpis" class="kpi-grid"></div>
+      <div class="chart-grid">
+        <article class="panel wide"><h3 data-en="Hourly consumption and generation" data-tr="Saatlik tüketim ve üretim">Hourly consumption and generation</h3><svg id="trendChart" viewBox="0 0 1000 330" role="img"></svg></article>
+        <article class="panel"><h3 data-en="Average generation mix" data-tr="Ortalama üretim karması">Average generation mix</h3><div id="mixBars" class="bars"></div></article>
+        <article class="panel"><h3 data-en="Consumption by hour" data-tr="Saat bazında tüketim">Consumption by hour</h3><svg id="hourChart" viewBox="0 0 500 300" role="img"></svg></article>
+      </div>
+    </section>
+
+    <section id="architecture" class="section dark-section">
+      <div class="wrap">
+        <span class="eyebrow" data-en="ENGINEERING ARCHITECTURE" data-tr="MÜHENDİSLİK MİMARİSİ">ENGINEERING ARCHITECTURE</span>
+        <h2 data-en="External providers are adapters, not the foundation" data-tr="Haricî sağlayıcılar temel değil, adaptördür">External providers are adapters, not the foundation</h2>
+        <div class="flow">
+          <div data-en="Demo · Local · TEİAŞ · EPİAŞ" data-tr="Demo · Yerel · TEİAŞ · EPİAŞ">Demo · Local · TEİAŞ · EPİAŞ</div><span>→</span>
+          <div data-en="Validation & provenance" data-tr="Doğrulama ve veri kökeni">Validation & provenance</div><span>→</span>
+          <div data-en="Analytics warehouse" data-tr="Analitik veri katmanı">Analytics warehouse</div><span>→</span>
+          <div data-en="Forecasts · API · BI" data-tr="Tahmin · API · BI">Forecasts · API · BI</div>
+        </div>
+        <div class="feature-grid">
+          <article><h3 data-en="Data quality" data-tr="Veri kalitesi">Data quality</h3><p data-en="Hourly coverage, duplicates, missing values, schema normalization and source flags." data-tr="Saatlik kapsama, tekrarlar, eksik değerler, şema standardizasyonu ve kaynak işaretleri.">Hourly coverage, duplicates, missing values, schema normalization and source flags.</p></article>
+          <article><h3 data-en="Forecasting" data-tr="Tahmin">Forecasting</h3><p data-en="Calendar and lag features, machine-learning baseline and seasonal-naive comparison." data-tr="Takvim ve gecikme özellikleri, makine öğrenmesi modeli ve mevsimsel-naif karşılaştırma.">Calendar and lag features, machine-learning baseline and seasonal-naive comparison.</p></article>
+          <article><h3 data-en="BI-ready" data-tr="BI uyumlu">BI-ready</h3><p data-en="Fact tables, generation-source long table, date dimension, KPI table and Excel workbook." data-tr="Fact tabloları, uzun format üretim tablosu, tarih boyutu, KPI tablosu ve Excel çalışma kitabı.">Fact tables, generation-source long table, date dimension, KPI table and Excel workbook.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="author" class="section wrap">
+      <div class="author-card">
+        <img src="https://avatars.githubusercontent.com/u/105053743?v=4&amp;s=720" onerror="this.onerror=null;this.src='assets/author-fallback.svg'" alt="Faramarz Kowsari, author, Software Engineer and AI researcher" width="320" height="320" loading="lazy" decoding="async">
+        <div>
+          <span class="eyebrow" data-en="CREATED AND MAINTAINED BY" data-tr="GELİŞTİREN VE SÜRDÜREN">CREATED AND MAINTAINED BY</span>
+          <h2>Faramarz Kowsari</h2>
+          <p class="role" data-en="Author · Software Engineer · AI Researcher" data-tr="Yazar · Yazılım Mühendisi · Yapay Zekâ Araştırmacısı">Author · Software Engineer · AI Researcher</p>
+          <p data-en="Faramarz Kowsari is an author, Software Engineer and AI researcher based in Istanbul. Focusing on the intersection of technology, education, and personal growth, he has published over 80 digital titles on international platforms. His areas of expertise span Artificial Intelligence, prompt engineering, modern trading strategies (Smart Money Concepts & algorithmic trading), as well as classical literature and mindfulness. In addition to writing, he develops web-based educational tools and creates specialized instructional video content." data-tr="Faramarz Kowsari, İstanbul merkezli bir yazar, Yazılım Mühendisi ve yapay zekâ araştırmacısıdır. Teknoloji, eğitim ve kişisel gelişimin kesişimine odaklanarak uluslararası platformlarda 80'den fazla dijital eser yayımlamıştır. Uzmanlık alanları yapay zekâ, istem mühendisliği, modern işlem stratejileri (Smart Money Concepts ve algoritmik işlem), klasik edebiyat ve farkındalık çalışmalarını kapsar. Yazarlığın yanı sıra web tabanlı eğitim araçları geliştirir ve uzmanlaşmış eğitim videoları üretir.">Faramarz Kowsari is an author, Software Engineer and AI researcher based in Istanbul. Focusing on the intersection of technology, education, and personal growth, he has published over 80 digital titles on international platforms. His areas of expertise span Artificial Intelligence, prompt engineering, modern trading strategies (Smart Money Concepts & algorithmic trading), as well as classical literature and mindfulness. In addition to writing, he develops web-based educational tools and creates specialized instructional video content.</p>
+          <div class="profile-links">
+            <a href="https://orcid.org/0000-0003-1692-0453" target="_blank" rel="me noopener noreferrer">ORCID</a><a href="https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en" target="_blank" rel="me noopener noreferrer">Google Scholar</a><a href="https://github.com/FaramarzKowsari" target="_blank" rel="me noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/faramarzkowsari" target="_blank" rel="me noopener noreferrer">LinkedIn</a><a href="https://play.google.com/store/search?q=Faramarz_Kowsari&c=books" target="_blank" rel="me noopener noreferrer">Google Books</a><a href="https://FaramarzKowsari.github.io" target="_blank" rel="me noopener noreferrer">Official Website</a><a href="https://zenodo.org/search?q=creators.orcid%3A%220000-0003-1692-0453%22&l=list&p=1&s=10&sort=bestmatch" target="_blank" rel="me noopener noreferrer">Zenodo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap"><span>© 2026 Faramarz Kowsari</span><span data-en="Open-source research software · MIT License" data-tr="Açık kaynak araştırma yazılımı · MIT Lisansı">Open-source research software · MIT License</span></div></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
