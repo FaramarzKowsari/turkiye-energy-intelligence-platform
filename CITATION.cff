@@ -8,8 +8,9 @@ authors:
     orcid: "https://orcid.org/0000-0003-1692-0453"
 repository-code: "https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform"
 url: "https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/"
-version: 1.0.0
-date-released: 2026-08-01
+version: 1.1.0
+date-released: 2026-08-02
+doi: "10.5281/zenodo.21749628"
 license: MIT
 keywords:
   - energy analytics
@@ -17,15 +18,18 @@ keywords:
   - electricity market
   - EPİAŞ
   - TEİAŞ
+  - live data
+  - Streamlit
   - forecasting
   - data quality
   - anomaly detection
+  - renewable energy
   - Power BI
   - Tableau
 abstract: >-
   An open-source platform for Turkish electricity-market data ingestion,
   quality control, time-series analytics, forecasting, anomaly detection,
-  visualization and BI-ready data exports.
-doi: "10.5281/zenodo.21749629"
-
-
+  visualization and BI-ready exports. Version 1.1.0 adds a secure hosted
+  Streamlit mode for authenticated official EPİAŞ consumption, generation-mix
+  and market-clearing-price data while preserving a reproducible synthetic
+  demo and local-file workflows.

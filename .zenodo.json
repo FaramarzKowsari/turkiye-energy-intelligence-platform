@@ -1,6 +1,6 @@
 {
   "title": "Türkiye Energy Intelligence Platform",
-  "description": "An open-source platform for Turkish electricity-market data ingestion, quality control, time-series analytics, forecasting, anomaly detection, visualization and BI-ready data exports.",
+  "description": "An open-source platform for Turkish electricity-market data ingestion, quality control, time-series analytics, forecasting, anomaly detection, visualization and BI-ready exports. Version 1.1.0 introduces a secure hosted Streamlit mode for authenticated official EPİAŞ consumption, generation-by-source and market-clearing-price data, with private credentials stored only in Streamlit Secrets. The reproducible synthetic demo remains available without registration.",
   "creators": [
     {
       "name": "Kowsari, Faramarz",
@@ -16,6 +16,8 @@
     "electricity market",
     "EPİAŞ",
     "TEİAŞ",
+    "live electricity data",
+    "Streamlit",
     "time-series forecasting",
     "data engineering",
     "data quality",
