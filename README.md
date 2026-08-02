@@ -6,6 +6,9 @@
 <p align="center"><strong>EnerjiNabız AI</strong> · Near-real-time electricity analytics, forecasting, anomaly detection and BI-ready exports for Türkiye.</p>
 <p align="center">
   <a href="https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://enerjinabiz-ai.streamlit.app" target="_blank">
+  <img alt="Launch Interactive App" src="https://img.shields.io/badge/Launch-Interactive_App-FF4B4B?logo=streamlit&logoColor=white">
+</a>
 <a href="https://doi.org/10.5281/zenodo.21749628"><img alt="Zenodo DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21749628-1682D4?logo=zenodo&logoColor=white"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-168d73.svg"></a>
   <img alt="Python 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-3670A0.svg">
@@ -14,8 +17,10 @@
 
 
 <p align="center">
-  <a href="#english">English</a> · <a href="#türkçe">Türkçe</a> ·
-  <a href="https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/">GitHub Pages</a> ·
+  <a href="#english">English</a> ·
+  <a href="#türkçe">Türkçe</a> ·
+  <a href="https://enerjinabiz-ai.streamlit.app" target="_blank">Interactive App</a> ·
+  <a href="https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/">Project Website</a> ·
   <a href="docs/RELEASE_AND_ZENODO.md">Release & DOI</a>
 </p>
 
