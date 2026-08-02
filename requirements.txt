@@ -1,1 +1,3 @@
--e .[app]
+streamlit>=1.37,<2.0
+pandas>=2.2,<3.0
+plotly>=5.23,<7.0
