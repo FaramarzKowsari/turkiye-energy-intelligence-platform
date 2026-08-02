@@ -1,18 +1,37 @@
-# راهنمای نصب فایل‌های آماده‌سازی v1.1.0
+# راهنمای اجرای Patch Release v1.1.1
 
-این بسته فقط چهار فایل نسخه را دارد و عمداً README یا کد برنامه را شامل نمی‌شود.
+## چرا این نسخه لازم است؟
 
-مسیر جایگزینی:
-- `pyproject.toml` در ریشه مخزن
-- `CITATION.cff` در ریشه مخزن
-- `.zenodo.json` در ریشه مخزن
-- `RELEASE_NOTES_v1.1.0.md` در ریشه مخزن
+Release v1.1.0 و DOI آن معتبرند، اما فایل‌های pyproject.toml و CITATION.cff
+در Tag آن هنوز شماره 1.0.0 داشتند. این Patch فقط همان ناسازگاری متادیتا را
+تصحیح می‌کند و هیچ قابلیتی را حذف نمی‌کند.
 
-پس از کپی:
-1. GitHub Desktop را باز کنید.
-2. Summary:
-   `release: prepare v1.1.0 live EPIAS integration`
-3. Commit to main
-4. Push origin
-5. منتظر سبزشدن CI بمانید.
-6. سپس Release با tag `v1.1.0` ساخته می‌شود.
+## کپی فایل‌ها
+
+فقط این چهار فایل را در ریشه مخزن کپی کنید:
+
+- pyproject.toml
+- CITATION.cff
+- .zenodo.json
+- RELEASE_NOTES_v1.1.1.md
+
+## Commit
+
+release: prepare v1.1.1 metadata consistency patch
+
+## Release
+
+Tag:
+v1.1.1
+
+Title:
+EnerjiNabız AI v1.1.1 — Metadata Consistency Patch
+
+Description:
+محتوای RELEASE_NOTES_v1.1.1.md
+
+Set as latest release:
+روشن
+
+Pre-release:
+خاموش
