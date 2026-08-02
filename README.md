@@ -203,9 +203,9 @@ Official profiles: [ORCID](https://orcid.org/0000-0003-1692-0453) · [Google Sch
 
 ## Citation
 
-To cite the archived version `v1.0.0`:
+To cite the current archived version `v1.1.1`:
 
-> Kowsari, Faramarz. (2026). *Türkiye Energy Intelligence Platform* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21749629
+> Kowsari, Faramarz. (2026). *Türkiye Energy Intelligence Platform* (Version 1.1.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21763992
 
 Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff).
 
@@ -221,4 +221,6 @@ MIT License for source code. Data obtained from external providers remains subje
 
 - **All versions / Concept DOI:** [10.5281/zenodo.21749628](https://doi.org/10.5281/zenodo.21749628)
 - **Version v1.0.0 DOI:** [10.5281/zenodo.21749629](https://doi.org/10.5281/zenodo.21749629)
+- **Version v1.1.0 DOI:** [10.5281/zenodo.21763194](https://doi.org/10.5281/zenodo.21763194)
+- **Version v1.1.1 DOI:** [10.5281/zenodo.21763992](https://doi.org/10.5281/zenodo.21763992)
 <!-- ZENODO_DOI_END -->

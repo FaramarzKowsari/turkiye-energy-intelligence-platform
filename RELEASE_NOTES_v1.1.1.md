@@ -30,13 +30,14 @@ No credentials, private datasets, TGT tickets or API secrets are included.
 
 ## DOI
 
-All versions / Concept DOI:
+### Version v1.1.1
+
+https://doi.org/10.5281/zenodo.21763992
+
+### All Versions / Concept DOI
 
 https://doi.org/10.5281/zenodo.21749628
 
-Previous version v1.1.0:
+### Previous Version — v1.1.0
 
 https://doi.org/10.5281/zenodo.21763194
-
-The version-specific DOI for v1.1.1 will be inserted after Zenodo archives
-this release.
