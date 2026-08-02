@@ -116,7 +116,7 @@ with st.sidebar:
     refresh_live = False
     if selected_source == "Live EPİAŞ":
         lookback_days = st.slider("Live lookback (days)", 1, 14, 7)
-        refresh_live = st.button("Refresh official data", use_container_width=True)
+        refresh_live = st.button("Refresh official data", width="stretch")
         st.caption("Credentials are stored only in Streamlit Secrets.")
     else:
         st.caption("Synthetic data is clearly labelled and requires no account.")
@@ -210,7 +210,7 @@ c4.metric(
 )
 
 fig = px.line(data, x="timestamp", y=metric, title="Hourly trend")
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, width="stretch")
 
 generation_cols = [
     column
@@ -247,7 +247,7 @@ if generation_cols:
         color="source",
         title="Daily generation mix",
     )
-    st.plotly_chart(mix_chart, use_container_width=True)
+    st.plotly_chart(mix_chart, width="stretch")
 
 if "consumption_mwh" in data and not data["consumption_mwh"].dropna().empty:
     heat = data.pivot_table(
@@ -271,7 +271,7 @@ if "consumption_mwh" in data and not data["consumption_mwh"].dropna().empty:
         data=go.Heatmap(z=heat.values, x=heat.columns, y=heat.index)
     )
     heatmap.update_layout(title="Average consumption by weekday and hour")
-    st.plotly_chart(heatmap, use_container_width=True)
+    st.plotly_chart(heatmap, width="stretch")
 
 if "is_anomaly" in data:
     anomalies = data[
@@ -291,7 +291,7 @@ if "is_anomaly" in data:
         ]
         st.dataframe(
             anomalies[anomaly_columns].tail(30),
-            use_container_width=True,
+            width="stretch",
         )
 
 if selected_source == "Demo data" and FORECAST.exists():
@@ -302,7 +302,7 @@ if selected_source == "Demo data" and FORECAST.exists():
         x="timestamp",
         y=["consumption_mwh", "forecast_mwh", "naive_24h_mwh"],
     )
-    st.plotly_chart(forecast_chart, use_container_width=True)
+    st.plotly_chart(forecast_chart, width="stretch")
 
 st.subheader("Data quality and export")
 q1, q2, q3 = st.columns(3)
