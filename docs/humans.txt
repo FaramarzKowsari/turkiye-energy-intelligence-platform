@@ -1,0 +1,17 @@
+/* TEAM */
+Author: Faramarz Kowsari
+Roles: Author, Software Engineer, AI Researcher
+Location: Istanbul, Türkiye
+ORCID: https://orcid.org/0000-0003-1692-0453
+Website: https://faramarzkowsari.github.io/
+GitHub: https://github.com/FaramarzKowsari
+
+/* PROJECT */
+Name: Türkiye Energy Intelligence Platform
+Product name: EnerjiNabız AI
+Repository: https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform
+Website: https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/
+Version DOI: https://doi.org/10.5281/zenodo.21749629
+Concept DOI: https://doi.org/10.5281/zenodo.21749628
+License: MIT
+Languages: English, Turkish
