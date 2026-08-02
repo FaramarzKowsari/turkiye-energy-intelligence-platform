@@ -1,4 +1,11 @@
 <p align="center">
+  <img
+    src="docs/assets/social-preview.jpg"
+    alt="Türkiye Energy Intelligence Platform — EnerjiNabız AI"
+    width="100%"
+  >
+</p>
+<p align="center">
   <img src="https://avatars.githubusercontent.com/u/105053743?v=4&s=256" width="128" height="128" alt="Faramarz Kowsari, author, Software Engineer and AI researcher">
 </p>
 
