@@ -21,7 +21,7 @@ jobs:
           test -n "$EPIAS_USERNAME" || (echo "Missing EPIAS_USERNAME secret" && exit 1)
           test -n "$EPIAS_PASSWORD" || (echo "Missing EPIAS_PASSWORD secret" && exit 1)
       - run: enerjinabiz build
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: epias-analytics-output
           path: |
